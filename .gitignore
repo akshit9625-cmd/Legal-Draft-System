@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+
+# Models cache (large files)
+.cache/
+*.bin
+*.safetensors
+*.pt
+
+# Database
+*.db
+*.sqlite
+chroma_db/
+backend/chroma_db/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Docker volumes (managed by Docker)
+postgres_data/
+redis_data/
